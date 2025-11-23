@@ -10,7 +10,10 @@ body {
     flex-direction: column;
     /* Optional: Set minimum height for body to demonstrate column layout */
     min-height: 100vh; 
+    width: auto;
     margin: 0;
+    background-color: ghostwhite;
+
 }
 
 /* 2. MAIN Container: Flex: auto, and two items laid out horizontally (row) */
@@ -20,6 +23,7 @@ main {
     /* Allows <main> to fill the remaining vertical space between header and footer */
     flex: auto; 
     overflow: hidden; /* Prevent main from forcing scrollbars */
+    background-color: rgb(87, 68, 54);
 }
 
 /* 3. ARTICLE Content: Takes 2/3 of the width, and allows vertical scrolling */
